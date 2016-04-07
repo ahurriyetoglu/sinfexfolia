@@ -8,7 +8,7 @@ textbody = tweets_doc.append(folia.Text)
 
 for tw in tweets_df.text.values[:250]:
     tweet = folia.Event(tweets_doc, generate_id_in=textbody)
-    for tw in t.split():
+    for t in tw.split():
         tweet.append(folia.Word, text=t) #,space=space)
     #tweet.append(folia.Word, text="",space=space)
     textbody.append(tweet)
