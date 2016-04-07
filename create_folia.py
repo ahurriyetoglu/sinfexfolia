@@ -6,7 +6,7 @@ tweets_doc.declare(folia.Entity, "https://raw.githubusercontent.com/ahurriyetogl
 
 textbody = tweets_doc.append(folia.Text)
 
-tweet = folia.Sentence(tweets_doc,generate_id_in=textbody)
+tweet = folia.Event(tweets_doc,generate_id_in=textbody)
 for t in tweets_df.text.values:
     tweet.append(folia.Word, text=t) #,space=space)
     #tweet.append(folia.Word, text="",space=space)
