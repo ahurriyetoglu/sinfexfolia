@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <set xml:id="sinfex-traffic" type="closed" xmlns="http://ilk.uvt.nl/folia">
-    <class xml:id="RID" label="RID"/>
-    <class xml:id="ID" label="ID"/>
-    <class xml:id="TMX" label="TMX"/>
-    <class xml:id="LOC" label="LOC"/>
-    <class xml:id="DIRECT" label="DIRECT"/>
+    <class xml:id="TMX" label="Time expression"/>
+    <class xml:id="RID" label="Road ID"/>
+    <class xml:id="RSC" label="Road section"/>
+    <class xml:id="RSD" label="Road side"/>
+    <class xml:id="LN" label="Lane"/>
+    <class xml:id="RPN" label="Road point"/>
+    <class xml:id="RCD" label="Road condition"/>
+    <class xml:id="DIR" label="Direction"/>
+    <class xml:id="LOC" label="Location"/>
+    <class xml:id="STA" label="Status"/>
+    <class xml:id="TRA" label="Traffic"/>
+    <class xml:id="FLW" label="Flow"/>
+    <class xml:id="INT" label="Intensity"/>
+    <class xml:id="SPD" label="Speed"/>
+    <class xml:id="OET" label="Observed event"/>
+    <class xml:id="WTH" label="Weather"/>
+    <class xml:id="TRV" label="Traffic violation"/>
+    <class xml:id="MON" label="Monitoring"/>
+    <class xml:id="DEV" label="Development"/>
+    <class xml:id="ACT" label="Activity"/>
+    <class xml:id="NOT" label="Notification"/>
+    <class xml:id="ADV" label="Advice"/>
     <class xml:id="OTH" label="OTH"/>
 </set>
