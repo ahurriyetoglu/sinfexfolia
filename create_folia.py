@@ -6,10 +6,11 @@ tweets_doc.declare(folia.Entity, "https://raw.githubusercontent.com/ahurriyetogl
 
 textbody = tweets_doc.append(folia.Text)
 
-tweet = folia.Event(tweets_doc,generate_id_in=textbody)
-for t in tweets_df.text.values:
-    tweet.append(folia.Word, text=t) #,space=space)
+for tw in tweets_df.text.values[:250]:
+    tweet = folia.Event(tweets_doc, generate_id_in=textbody)
+    for tw in t.split():
+        tweet.append(folia.Word, text=t) #,space=space)
     #tweet.append(folia.Word, text="",space=space)
-    textbody.append(t)
+    textbody.append(tweet)
 
 tweets_doc.save("tst.folia.xml")
