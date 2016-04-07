@@ -2,8 +2,8 @@
 <FoLiA xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://ilk.uvt.nl/folia" xml:id="tweetlist1" version="1.0.1" generator="pynlpl.formats.folia-v1.0.1.74">
   <metadata xmlns="http://ilk.uvt.nl/folia" type="native">
     <annotations>
-      <event-annotation set="https://raw.githubusercontent.com/ahurriyetoglu/sinfexfolia/master/sinfex.folia.event.xml"/>
-      <entity-annotation set="https://raw.githubusercontent.com/ahurriyetoglu/sinfexfolia/master/sinfex.foliaset.xml"/>
+      <event-annotation set="https://raw.githubusercontent.com/ahurriyetoglu/sinfexfolia/master/sinfex-event.foliaset.xml"/>
+      <entity-annotation set="https://raw.githubusercontent.com/ahurriyetoglu/sinfexfolia/master/sinfex-entities.foliaset.xml"/>
     </annotations>
   </metadata>
   <text xml:id="tweetlist1.text.1">
