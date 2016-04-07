@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xml:id="paraseme-mwe" type="closed" xmlns="http://ilk.uvt.nl/folia">
+    <class xml:id="RID" label="RID"/>
+    <class xml:id="ID" label="ID"/>
+    <class xml:id="TMX" label="TMX"/>
+    <class xml:id="LOC" label="LOC"/>
+    <class xml:id="DIRECT" label="DIRECT"/>
+    <class xml:id="OTH" label="OTH"/>
+</set>
